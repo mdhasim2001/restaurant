@@ -1,0 +1,23 @@
+.hasim{
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    transition: 0.5s;
+}
+
+.hasim ul{
+    text-align: center;
+    padding: 50px;
+}
+
+.hasim ul li{
+    padding: 10px;
+    margin: 10px 0;
+}
+
+ul li{
+    font-size: 12px;
+}

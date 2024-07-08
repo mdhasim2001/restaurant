@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css"
+import { MdRestaurantMenu } from "react-icons/md";
 
 const Navbar = () => {
 
@@ -13,33 +15,35 @@ const Navbar = () => {
 
   return (
     <div className=" flex items-center justify-between lg:w-4/5 lg:mx-auto mx-5 h-20 text-[14px]">
-      <Link to="/" className="text-3xl font-bold cursor-pointer">
+      <Link to="/" className="text-xl uppercase cursor-pointer">
+        <img src="../../assets/logo.png" alt="" />
         Restaurant
       </Link>
       <div className="flex items-center justify-center">
-            <div className={`${navbar ? "absolute" : ""} nav hidden lg:block`}>
+            <div className={`${navbar ? "hidden" : "hasim"}  lg:block`}>
                 <ul className="uppercase lg:flex lg:gap-5">
-                    <li>
+                    <button onClick={()=>navbarTule(true)} className="right-5 top-5 absolute lg:hidden"><MdRestaurantMenu className="w-5 h-5" /></button>
+                    <li onClick={() => navbarTule(true)}>
                     <Link>Home</Link>
                     </li>
-                    <li>
+                    <li onClick={() => navbarTule(true)}>
                     <Link>Contact Us</Link>
                     </li>
-                    <li>
+                    <li onClick={() => navbarTule(true)}>
                     <Link to="dashboard">DASHBOARD</Link>
                     </li>
-                    <li>
+                    <li onClick={() => navbarTule(true)}>
                     <Link>our menu</Link>
                     </li>
-                    <li>
+                    <li onClick={() => navbarTule(true)}>
                     <Link>our shop</Link>
                     </li>
                 </ul>
             </div>
             <div className="lg:hidden">
                 {
-                    navbar ? <button onClick={() => navbarTule(false)}>O</button> : 
-                    <button onClick={() => navbarTule(true)}>X</button>
+                    navbar ? <button onClick={() => navbarTule(false)} className="w-10 h-3"><MdRestaurantMenu className="w-5 h-5" /></button> : 
+                    ""
                 }
             </div>
       </div>

@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 
 const Main = () => {
     return (
-        <div>
+        <div className="bg-[#1A2D1F] text-white">
             <Navbar/>
             <Outlet/>
             <Footer/>
