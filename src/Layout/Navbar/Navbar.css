@@ -4,7 +4,7 @@
     position: absolute;
     top: 0px;
     right: 0;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background: #1A2D1F;
     transition: 0.5s;
 }
 
