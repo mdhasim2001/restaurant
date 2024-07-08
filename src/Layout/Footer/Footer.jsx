@@ -31,17 +31,19 @@ const Footer = () => {
         <div className="mt-20">
           <div>
             <div className="w-full h-[1px] bg-white"></div>
-            <h1 className="uppercase">nana food</h1>
+            <div className="">
+            <h1 className="uppercase p-3 text-center bg-[#16261A] w-32 mx-auto -mt-6">restaurant</h1>
+            </div>
           </div>
         </div>
         <div className="h-20 lg:flex items-center justify-between">
-          <div className="flex items-center justify-center gap-5 text-[12px]">
+          <div className="flex items-center justify-center gap-5 mt-10 lg:mt-0 text-[12px]">
             <p className="uppercase">pinterest</p>
             <p className="uppercase">facebook</p>
             <p className="uppercase">instagram</p>
           </div>
           <div className="text-[12px]">
-            <p className="uppercase">
+            <p className="uppercase text-center mt-5 lg:mt-0">
               2024 qode ineractive, all rights reserver
             </p>
           </div>
