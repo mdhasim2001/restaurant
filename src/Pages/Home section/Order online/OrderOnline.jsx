@@ -16,7 +16,7 @@ const OrderOnline = () => {
             src={img1}
             alt=""
           />
-          <p className="uppercase -mt-14 text-center">salads</p>
+          <p className="uppercase -mt-14 text-center text-yellow-600 text-bold">salads</p>
         </div>
         <div>
           <img
@@ -24,7 +24,7 @@ const OrderOnline = () => {
             src={img2}
             alt=""
           />
-          <p className="uppercase -mt-14 text-center">salads</p>
+          <p className="uppercase -mt-14 text-center text-yellow-600 text-bold">salads</p>
         </div>
         <div>
           <img
@@ -32,7 +32,7 @@ const OrderOnline = () => {
             src={img3}
             alt=""
           />
-          <p className="uppercase -mt-14 text-center">salads</p>
+          <p className="uppercase -mt-14 text-center text-yellow-600 text-bold">salads</p>
         </div>
         <div>
           <img
@@ -40,7 +40,7 @@ const OrderOnline = () => {
             src={img4}
             alt=""
           />
-          <p className="uppercase -mt-14 text-center">salads</p>
+          <p className="uppercase -mt-14 text-center text-yellow-600 text-bold">salads</p>
         </div>
         <div>
           <img
@@ -48,7 +48,7 @@ const OrderOnline = () => {
             src={img5}
             alt=""
           />
-          <p className="uppercase -mt-14 text-center">salads</p>
+          <p className="uppercase -mt-14 text-center text-yellow-600 text-bold">salads</p>
         </div>
       </div>
     </div>
