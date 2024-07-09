@@ -11,8 +11,6 @@ const Navbar = () => {
     setNavbar(nav);
   };
 
-  console.log(navbar);
-
   return (
     <div className="lg:w-[90%] lg:mx-auto flex items-center justify-between  mx-5 h-20 text-[14px]">
       <Link to="/" className="text-xl uppercase cursor-pointer ">
