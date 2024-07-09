@@ -1,4 +1,6 @@
 import Banner from "../Banner/Banner";
+import ChefRecommends from "../ChefRecommends/ChefRecommends";
+import HelpYou from "../HelpYou/HelpYou";
 import OurMenu from "../Menu Section/OurMenu";
 import OrderOnline from "../Order online/OrderOnline";
 import VisitUs from "../VisitUs/VisitUs";
@@ -11,7 +13,9 @@ const Home = () => {
       <div className="lg:w-4/5 lg:mx-auto mx-5 my-20">
         <OurMenu/>
       </div>
+      <ChefRecommends/>
       <VisitUs/>
+      <HelpYou/>
     </div>
   );
 };

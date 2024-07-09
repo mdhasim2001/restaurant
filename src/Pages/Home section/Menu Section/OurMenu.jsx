@@ -30,6 +30,9 @@ const OurMenu = () => {
             items.map(item => <Item key={item._id} item={item}/>)
         }
       </div>
+      <div className="text-center mt-10">
+        <button className="btn uppercase mx-auto border-b rounded-lg text-[14px] border-yellow-600 p-2 ">viwe full menu</button>
+      </div>
     </div>
   );
 };
