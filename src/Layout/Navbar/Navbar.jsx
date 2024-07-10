@@ -26,19 +26,19 @@ const Navbar = () => {
               <MdRestaurantMenu className="w-5 h-5" />
             </button>
             <li onClick={() => navbarTule(true)}>
-              <Link>Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li onClick={() => navbarTule(true)}>
-              <Link>Contact Us</Link>
+              <Link to="/contactUs">Contact Us</Link>
             </li>
             <li onClick={() => navbarTule(true)}>
               <Link to="dashboard">DASHBOARD</Link>
             </li>
             <li onClick={() => navbarTule(true)}>
-              <Link>our menu</Link>
+              <Link to="/outMenu">our menu</Link>
             </li>
             <li onClick={() => navbarTule(true)}>
-              <Link>our shop</Link>
+              <Link to="/ourShop">our shop</Link>
             </li>
           </ul>
         </div>
