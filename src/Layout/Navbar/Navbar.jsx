@@ -35,7 +35,7 @@ const Navbar = () => {
               <Link to="dashboard">DASHBOARD</Link>
             </li>
             <li onClick={() => navbarTule(true)}>
-              <Link to="/outMenu">our menu</Link>
+              <Link to="/ourMenu">our menu</Link>
             </li>
             <li onClick={() => navbarTule(true)}>
               <Link to="/ourShop">our shop</Link>
