@@ -6,6 +6,7 @@
     right: 0;
     background: #1A2D1F;
     transition: 0.5s;
+    z-index: 10;
 }
 
 .hasim ul{
